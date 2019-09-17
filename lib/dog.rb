@@ -1,9 +1,9 @@
 class Dog 
   def name=(dog_name)
-    @doggie_name = dog_name
+    @this_dogs_name = dog_name
    end
     def name 
-     @doggie_name
+     @this_dogs_name
 end
 end
 lassie = Dog.new
